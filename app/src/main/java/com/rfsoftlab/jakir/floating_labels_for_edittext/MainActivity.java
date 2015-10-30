@@ -48,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     /**
      * Validating form
      */
@@ -149,6 +148,4 @@ public class MainActivity extends AppCompatActivity {
             getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
         }
     }
-
-
 }
