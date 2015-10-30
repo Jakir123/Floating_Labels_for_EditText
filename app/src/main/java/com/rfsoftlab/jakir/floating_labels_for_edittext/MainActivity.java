@@ -109,7 +109,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             inputLayoutName.setErrorEnabled(false);
         }
-
         return true;
     }
 
@@ -139,10 +138,8 @@ public class MainActivity extends AppCompatActivity {
         } else {
             inputLayoutPassword.setErrorEnabled(false);
         }
-
         return true;
     }
-
     private void requestFocus(View view) {
         if (view.requestFocus()) {
             getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
