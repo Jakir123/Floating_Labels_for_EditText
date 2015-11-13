@@ -100,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
     private boolean validateName() {
         if (etName.getText().toString().trim().isEmpty()) {
             inputLayoutName.setError(getString(R.string.err_msg_name));
