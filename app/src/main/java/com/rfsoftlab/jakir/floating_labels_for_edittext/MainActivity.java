@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        Toast.makeText(getApplicationContext(), "CSign Up Successful!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Sign Up Successful!", Toast.LENGTH_SHORT).show();
     }
 
     private class MyTextWatcher implements TextWatcher {
